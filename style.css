@@ -32,7 +32,6 @@
 
 
 
-
 .pages-menu{
     margin: auto !important;
 }
@@ -96,6 +95,8 @@
 
 }
 
+
+
 .slide-bar-content:hover{
     background-color: white;
     color: black;
@@ -103,37 +104,71 @@
 }
 
 .slide-bar-sections-options{
-    padding: 0% 10% !important;
-    margin: 1vh 0vh !important;
+    padding: 2vh 10% !important;
+    margin: 0vh 0vh !important;
     display: none;
+    background-color: rgba(128, 128, 128, 0.932);
 }
 
 
 .slide-bar-sections-options a {
-    color: black;
+    color: white;
     font-size: 15px;
-    margin-top: 1vh;
+    margin: 2vh 0px !important;
+    display: block;
 }
+
 
 .iconrotat{
     transition: 0.5s transform;
 }
+
+@media only screen and (max-width: 600px) {
+    .pages-menu-parent{
+        display: none !important;
+    }
+
+    #logo{
+        height: auto;
+        border: none;
+        margin-top: 0vh !important ;
+        padding: auto;
+        font-size: 30px;
+    }
+
+    #real-slide-bar{
+        background-color: rgba(187, 187, 187, 0.8);
+    }
+  }
+
+  
 /* HEADER END */
 
 
 /* CONTENT */
 
+
 .content{
     width: 100vh;
     margin: 10vh 50vh !important ;
-    
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 
 .content h5 {
     margin-top: 2vh !important;
     justify-content: center !important;
     line-height: 3vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .content{
+        width: 80% !important;
+        margin: 5vh 10% !important ;
+    }
+}
+
 /* CONTENT END */
 
 
@@ -144,6 +179,7 @@
     text-align: center;
     padding: 5vh 0vh !important;
     color: white !important;
+    
 }
 
 #footer ul{
@@ -173,6 +209,22 @@
 
 #footer a {
     color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #footer ul a li{
+        font-size: 15px;
+        text-decoration: underline ;
+    }
+
+    #footer h2 {
+        font-size: 20px;
+    }
+    
+    #footer p {
+        margin: 10px 10px !important;
+        padding: 0px 0vh !important;
+    }
 }
 
 /* FOOTER END */
