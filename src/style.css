@@ -66,6 +66,7 @@
     height: 10vh;
     font-size: 25px;
     padding-left: 60% !important;
+    transform: translateY( 50% , -50%);
 
 }
 
@@ -96,7 +97,27 @@
 
 }
 
+.content-of-pages-menu{
+    background-color: white;
+    color: black;
+    border-left: black solid 1px;
+    display: none;
+}
 
+.content-of-pages-menu a {
+    color: white;
+}
+
+.content-of-pages-menu{
+    background-color: black;
+    border: none;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    font-size: 18px;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+}
 
 .slide-bar-content:hover{
     background-color: white;
@@ -135,10 +156,19 @@
         margin-top: 0vh !important ;
         padding: auto;
         font-size: 30px;
+        transform: translateY( 50% , -50%);
     }
 
     #real-slide-bar{
         background-color: rgba(187, 187, 187, 0.8);
+    }
+    #open-close-btn{
+        padding-left: 40% !important;
+        transform: translateY( 50% , -50%);
+    }
+
+    .content-of-pages-menu{
+        display: block;
     }
   }
 
@@ -167,9 +197,8 @@
     /*2030 IMAGES */
 
     #section2030{
-        background-color: white;
         box-sizing: border-box;
-        padding: 5vh 2vw !important;
+        padding: 0vh 2vw !important;
     }
 
     #Description-about-2030 a p  {
@@ -203,11 +232,16 @@
         margin: 5vh 10% !important ;
     }
 
+    #section2030{
+        text-align: center;
+    }
+
     #Description-about-2030  {
         margin: 0px;
         padding: 0px;
         text-align: center;
     }
+
     #Description-about-2030 a p  {
         margin-top: 1vh !important;
     }
